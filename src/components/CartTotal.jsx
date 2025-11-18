@@ -6,7 +6,7 @@ const CartTotal = () => {
   const { currency, delivery_fee, getCartAmount } = useContext(Shopcontext);
 
   return (
-    <div className="w-full">
+    <div className="w-full animate__animated animate__fadeInRight">
       <div className="text-2xl">
         <Title text1={"CART"} text2={"TOTALS"} />
       </div>
@@ -18,7 +18,7 @@ const CartTotal = () => {
             {getCartAmount()}.00
           </p>
         </div>
-        <hr className="border-gray-300"/>
+        <hr className="border-gray-300" />
         <div className="flex justify-between">
           <p>Shipping Fee</p>
           <p>
@@ -26,7 +26,7 @@ const CartTotal = () => {
             {delivery_fee}.00
           </p>
         </div>
-        <hr className="border-gray-300"/>
+        <hr className="border-gray-300" />
         <div className="flex justify-between">
           <b>Total</b>
           <b>

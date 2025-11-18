@@ -31,7 +31,7 @@ const Cart = () => {
       <div className="text-2xl mb-3 ">
         <Title text1={"YOUR"} text2={"CART"} />
       </div>
-      <div>
+      <div className="animate__animated animate__fadeIn animate__slow	3s">
         {cartData.map((item, index) => {
           const productData = products.find(
             (product) => product._id === item._id
@@ -87,7 +87,7 @@ const Cart = () => {
           );
         })}
       </div>
-      <div className="flex justify-end my-20">
+      <div className="flex justify-end my-20 animate__animated animate__fadeInUp">
         <div className="w-full sm:w-[450px]">
           <CartTotal />
           <div className="w-full text-end">

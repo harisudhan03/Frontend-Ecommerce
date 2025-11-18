@@ -7,11 +7,11 @@ const Orders = () => {
   const{products,currency} = useContext(Shopcontext)
 
   return (
-    <div className="border-t border-gray-300 pt-16">
+    <div className="border-t border-gray-300 pt-16 ">
       <div className="text-2xl">
         <Title text1={"MY"} text2={"ORDERS"} />
       </div>
-      <div>
+      <div className="animate__animated animate__fadeIn animate__slow	3s">
         {products.slice(1, 4).map((item, index) => (
           <div
             key={index}

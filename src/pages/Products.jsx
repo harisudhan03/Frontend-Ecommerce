@@ -28,7 +28,7 @@ const Products = () => {
   }, [productId]);
 
   return productData ? (
-    <div className="border-t-2 border-gray-300 pt-10 transition-opacity ease-in duration-500 opacity-100">
+    <div className="border-t-2 border-gray-300 pt-10 transition-opacity ease-in duration-500 opacity-100 animate__animated animate__fadeIn animate__slow 3s">
       {/* product data */}
       <div className="flex gap-12 sm:gap-12 flex-col sm:flex-row">
         {/* Product image */}
@@ -83,12 +83,12 @@ const Products = () => {
             </div>
           </div>
           <button
-            onClick={() => addtoCart(productData._id,size)}
+            onClick={() => addtoCart(productData._id, size)}
             className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700 cursor-pointer"
           >
             ADD TO CART
           </button>
-          <hr className="mt-8 sm:w-4/5 border-gray-300"/>
+          <hr className="mt-8 sm:w-4/5 border-gray-300" />
           <div className="text-sm text-gray-500 mt-5 flex flex-col gap-1">
             <p>100% Original product.</p>
             <p>Cash on delivery is available on this product.</p>

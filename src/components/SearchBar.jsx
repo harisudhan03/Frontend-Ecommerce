@@ -19,8 +19,8 @@ const SearchBar = () => {
     },[location])
 
   return showSearch && visibel ? (
-    <div className="border-t text-center border-gray-300 bg-gray-50">
-      <div className="inline-flex justify-center items-center border border-gray-400 px-5 py-2 my-5 mx-3 rounded-full w-3/4 sm:w-1/2">
+    <div className="border-t text-center border-gray-300 bg-gray-50  animate__animated animate__fadeInDown ">
+      <div className="inline-flex justify-center items-center border border-gray-400 px-5 py-2 my-5 mx-3 rounded-full w-3/4 sm:w-1/2 ">
         <input
           className="flex-1 bg-inherit text-sm outline-none"
           type="text"

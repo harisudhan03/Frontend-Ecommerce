@@ -3,6 +3,7 @@ import { Shopcontext } from "../context/Shopcontext";
 import { assets } from "../assets/assets";
 import Title from "../components/Title";
 import ProductItem from "../components/ProductItem";
+import "animate.css";
 
 const Collection = () => {
   const { products, search, showSearch } = useContext(Shopcontext);
@@ -75,9 +76,9 @@ const Collection = () => {
   }, [sortType]);
 
   return (
-    <div className=" flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t border-gray-300">
+    <div className=" flex flex-col sm:flex-row gap-1 sm:gap-10 pt-10 border-t border-gray-300 ">
       {/* Filter options */}
-      <div className="min-w-60">
+      <div className="min-w-60 animate__animated animate__fadeInLeft">
         <p
           onClick={() => setShowFilter(!showFilter)}
           className="my-2 flex text-xl cursor-pointer items-center gap-2"
@@ -167,13 +168,13 @@ const Collection = () => {
 
       {/* Right side */}
 
-      <div className="flex-1">
+      <div className="flex-1 ">
         <div className="flex justify-between text-base sm:text-2xl mb-4">
           <Title text1={"ALL"} text2={"COLLECTIONS"} />
           {/* Product sore */}
           <select
             onChange={(e) => setSortType(e.target.value)}
-            className="border-2 border-gray-300 px-2 text-sm"
+            className="border-2 border-gray-300 px-2 text-sm  animate__animated animate__fadeInDown"
           >
             <option value="relavent">Sort by: Relavent</option>
             <option value="low-high">Sort by: Low-High</option>
@@ -182,7 +183,7 @@ const Collection = () => {
         </div>
 
         {/* Map products */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 gap-y-6 animate__animated animate__fadeInUp animate__fast	800ms">
           {filterProducts.map((item, index) => (
             <ProductItem
               key={index}

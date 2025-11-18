@@ -11,11 +11,11 @@ const About = () => {
       </div>
       <div className="my-10 flex flex-col md:flex-row gap-16">
         <img
-          className="w-full md:max-w-[450px]"
+          className="w-full md:max-w-[450px] animate__animated animate__fadeInLeft"
           src={assets.about_img}
           alt=""
         />
-        <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600">
+        <div className="flex flex-col justify-center gap-6 md:w-2/4 text-gray-600 animate__animated animate__fadeInRight">
           <p>
             Forever was born out of a passion for innovation and a desire to
             revolutionize the way people shop online. Our journey began with a
@@ -65,7 +65,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <NewsLetterBox/>
+      <NewsLetterBox />
     </div>
   );
 }
