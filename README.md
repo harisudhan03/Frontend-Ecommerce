@@ -1,16 +1,74 @@
-# React + Vite
+# 👗 FOREVER FASHION – Online Clothing Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FOREVER FASHION is a responsive frontend web application designed for browsing fashion products with modern UI and smooth user interactions. The application focuses on clean design, state management, and component reusability.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Product listing page with multiple fashion items
+- Product detail page with individual product information
+- Search functionality to find products easily
+- Category-based and price-based product filtering
+- Add to cart functionality
+- Increase and decrease product quantity in cart
+- Global state management for cart and products
+- Fully responsive UI across different screen sizes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+- React.js (Vite)
+- Tailwind CSS
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+
+**State Management & Routing**
+- Context API
+- React Router DOM
+
+---
+
+## 📂 Project Structure (Overview)
+
+- Reusable components for product listing and product details
+- Centralized state management using Context API
+- Client-side routing for smooth navigation
+- Clean and scalable folder structure
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://forever-shopify.netlify.app/  
+
+---
+
+## 📸 Screenshots
+
+![alt text](image.png)
+
+---
+
+## 📌 Learning Outcomes
+
+- Improved understanding of React component-based architecture
+- Hands-on experience with Context API for global state management
+- Implemented filtering, search, and cart logic
+- Built responsive layouts using Tailwind CSS
+- Practical experience with client-side routing
+
+---
+
+## 👨‍💻 Author
+
+Developed by Harisudhan
+
+---
+
+## 📄 License
+
+This project is for learning and portfolio purposes.
