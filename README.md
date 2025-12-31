@@ -47,12 +47,6 @@ FOREVER FASHION is a responsive frontend web application designed for browsing f
 
 ---
 
-## 📸 Screenshots
-
-![alt text](image.png)
-
----
-
 ## 📌 Learning Outcomes
 
 - Improved understanding of React component-based architecture
